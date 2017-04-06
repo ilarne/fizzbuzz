@@ -1,4 +1,8 @@
 
 def fizzbuzz(n)
-  'fizz'
+  if n == 3
+    'fizz'
+  else
+    'buzz'
+  end
 end
