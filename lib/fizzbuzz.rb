@@ -1,10 +1,10 @@
 
 def fizzbuzz(n)
-  if n == 3
-    'fizz'
+  if n % 15 == 0
+    'fizzbuzz'
   elsif n == 5
     'buzz'
   else
-    'fizzbuzz'
+    'fizz'
   end
 end
